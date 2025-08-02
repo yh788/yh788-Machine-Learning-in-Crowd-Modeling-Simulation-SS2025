@@ -1,0 +1,20 @@
+# Core scientific stack
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.5.0
+
+# Deep learning
+tensorflow==2.15.0
+keras==2.15.0
+
+# Plotting and visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Progress bar
+tqdm==4.66.4
+
+# Jupyter (optional, for notebooks)
+jupyter==1.0.0
+ipykernel==6.29.4

@@ -1,0 +1,50 @@
+{
+    "distance_computation": "naive",
+    "grid_size": {
+        "height": 50,
+        "width": 50
+    },
+    "is_absorbing": true,
+    "measuring_points": [],
+    "obstacles": [],
+    "output_filename": "outputs/task_3.csv",
+    "pedestrians": [
+        {
+            "ID": 1,
+            "speed": 1,
+            "x": 40,
+            "y": 25
+        },
+        {
+            "ID": 2,
+            "speed": 1,
+            "x": 30,
+            "y": 39
+        },
+        {
+            "ID": 3,
+            "speed": 1,
+            "x": 13,
+            "y": 36
+        },
+        {
+            "ID": 4,
+            "speed": 1,
+            "x": 13,
+            "y": 14
+        },
+        {
+            "ID": 5,
+            "speed": 1,
+            "x": 29,
+            "y": 11
+        }
+        
+    ],
+    "targets": [
+        {
+            "x": 25,
+            "y": 25
+        }
+    ]
+}

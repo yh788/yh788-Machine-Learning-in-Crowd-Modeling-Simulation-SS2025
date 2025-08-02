@@ -1,0 +1,25 @@
+{
+    "distance_computation": "naive",
+    "grid_size": {
+        "height": 4,
+        "width": 10
+    },
+    "is_absorbing": true,
+    "measuring_points": [],
+    "obstacles": [],
+    "output_filename": "outputs\\speed3.csv",
+    "pedestrians": [
+        {
+            "ID": 1,
+            "speed": 2.44,
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "targets": [
+        {
+            "x": 9,
+            "y": 0
+        }
+    ]
+}

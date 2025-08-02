@@ -1,0 +1,985 @@
+{
+    "distance_computation": "naive",
+    "grid_size": {
+        "height": 10,
+        "width": 30
+    },
+    "is_absorbing": true,
+    "measuring_points": [
+        {
+            "ID": 1,
+            "active_measurements": {},
+            "delay": 0,
+            "dynamic": true,
+            "expected_speed": 1.33,
+            "measurement_history": [],
+            "measuring_time": 60,
+            "size": {
+                "height": 5,
+                "width": 5
+            },
+            "speed_measurement": true,
+            "target_reached": false,
+            "tracked_pedestrians": [],
+            "upper_left": {
+                "x": 15,
+                "y": 1
+            }
+        },
+        {
+            "ID": 2,
+            "active_measurements": {},
+            "delay": 0,
+            "dynamic": true,
+            "expected_speed": 1.33,
+            "measurement_history": [],
+            "measuring_time": 60,
+            "size": {
+                "height": 5,
+                "width": 5
+            },
+            "speed_measurement": true,
+            "target_reached": false,
+            "tracked_pedestrians": [],
+            "upper_left": {
+                "x": 15,
+                "y": 2
+            }
+        },
+        {
+            "ID": 3,
+            "active_measurements": {},
+            "delay": 0,
+            "dynamic": true,
+            "expected_speed": 1.33,
+            "measurement_history": [],
+            "measuring_time": 60,
+            "size": {
+                "height": 5,
+                "width": 5
+            },
+            "speed_measurement": true,
+            "target_reached": false,
+            "tracked_pedestrians": [],
+            "upper_left": {
+                "x": 15,
+                "y": 3
+            }
+        },
+        {
+            "ID": 4,
+            "active_measurements": {},
+            "delay": 0,
+            "dynamic": true,
+            "expected_speed": 1.33,
+            "measurement_history": [],
+            "measuring_time": 60,
+            "size": {
+                "height": 5,
+                "width": 5
+            },
+            "speed_measurement": true,
+            "target_reached": false,
+            "tracked_pedestrians": [],
+            "upper_left": {
+                "x": 15,
+                "y": 4
+            }
+        },
+        {
+            "ID": 5,
+            "active_measurements": {},
+            "delay": 0,
+            "dynamic": true,
+            "expected_speed": 1.33,
+            "measurement_history": [],
+            "measuring_time": 60,
+            "size": {
+                "height": 5,
+                "width": 5
+            },
+            "speed_measurement": true,
+            "target_reached": false,
+            "tracked_pedestrians": [],
+            "upper_left": {
+                "x": 15,
+                "y": 5
+            }
+        },
+        {
+            "ID": 6,
+            "active_measurements": {},
+            "delay": 0,
+            "dynamic": true,
+            "expected_speed": 1.33,
+            "measurement_history": [],
+            "measuring_time": 60,
+            "size": {
+                "height": 5,
+                "width": 5
+            },
+            "speed_measurement": true,
+            "target_reached": false,
+            "tracked_pedestrians": [],
+            "upper_left": {
+                "x": 15,
+                "y": 6
+            }
+        },
+        {
+            "ID": 7,
+            "active_measurements": {},
+            "delay": 0,
+            "dynamic": true,
+            "expected_speed": 1.33,
+            "measurement_history": [],
+            "measuring_time": 60,
+            "size": {
+                "height": 5,
+                "width": 5
+            },
+            "speed_measurement": true,
+            "target_reached": false,
+            "tracked_pedestrians": [],
+            "upper_left": {
+                "x": 15,
+                "y": 7
+            }
+        },
+        {
+            "ID": 8,
+            "active_measurements": {},
+            "delay": 0,
+            "dynamic": true,
+            "expected_speed": 1.33,
+            "measurement_history": [],
+            "measuring_time": 60,
+            "size": {
+                "height": 5,
+                "width": 5
+            },
+            "speed_measurement": true,
+            "target_reached": false,
+            "tracked_pedestrians": [],
+            "upper_left": {
+                "x": 15,
+                "y": 8
+            }
+        }
+    ],
+    "obstacles": [
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 1,
+            "y": 0
+        },
+        {
+            "x": 2,
+            "y": 0
+        },
+        {
+            "x": 3,
+            "y": 0
+        },
+        {
+            "x": 4,
+            "y": 0
+        },
+        {
+            "x": 5,
+            "y": 0
+        },
+        {
+            "x": 6,
+            "y": 0
+        },
+        {
+            "x": 7,
+            "y": 0
+        },
+        {
+            "x": 8,
+            "y": 0
+        },
+        {
+            "x": 9,
+            "y": 0
+        },
+        {
+            "x": 10,
+            "y": 0
+        },
+        {
+            "x": 11,
+            "y": 0
+        },
+        {
+            "x": 12,
+            "y": 0
+        },
+        {
+            "x": 13,
+            "y": 0
+        },
+        {
+            "x": 14,
+            "y": 0
+        },
+        {
+            "x": 15,
+            "y": 0
+        },
+        {
+            "x": 16,
+            "y": 0
+        },
+        {
+            "x": 17,
+            "y": 0
+        },
+        {
+            "x": 18,
+            "y": 0
+        },
+        {
+            "x": 19,
+            "y": 0
+        },
+        {
+            "x": 20,
+            "y": 0
+        },
+        {
+            "x": 21,
+            "y": 0
+        },
+        {
+            "x": 22,
+            "y": 0
+        },
+        {
+            "x": 23,
+            "y": 0
+        },
+        {
+            "x": 24,
+            "y": 0
+        },
+        {
+            "x": 25,
+            "y": 0
+        },
+        {
+            "x": 26,
+            "y": 0
+        },
+        {
+            "x": 27,
+            "y": 0
+        },
+        {
+            "x": 28,
+            "y": 0
+        },
+        {
+            "x": 29,
+            "y": 0
+        },
+        {
+            "x": 0,
+            "y": 9
+        },
+        {
+            "x": 1,
+            "y": 9
+        },
+        {
+            "x": 2,
+            "y": 9
+        },
+        {
+            "x": 3,
+            "y": 9
+        },
+        {
+            "x": 4,
+            "y": 9
+        },
+        {
+            "x": 5,
+            "y": 9
+        },
+        {
+            "x": 6,
+            "y": 9
+        },
+        {
+            "x": 7,
+            "y": 9
+        },
+        {
+            "x": 8,
+            "y": 9
+        },
+        {
+            "x": 9,
+            "y": 9
+        },
+        {
+            "x": 10,
+            "y": 9
+        },
+        {
+            "x": 11,
+            "y": 9
+        },
+        {
+            "x": 12,
+            "y": 9
+        },
+        {
+            "x": 13,
+            "y": 9
+        },
+        {
+            "x": 14,
+            "y": 9
+        },
+        {
+            "x": 15,
+            "y": 9
+        },
+        {
+            "x": 16,
+            "y": 9
+        },
+        {
+            "x": 17,
+            "y": 9
+        },
+        {
+            "x": 18,
+            "y": 9
+        },
+        {
+            "x": 19,
+            "y": 9
+        },
+        {
+            "x": 20,
+            "y": 9
+        },
+        {
+            "x": 21,
+            "y": 9
+        },
+        {
+            "x": 22,
+            "y": 9
+        },
+        {
+            "x": 23,
+            "y": 9
+        },
+        {
+            "x": 24,
+            "y": 9
+        },
+        {
+            "x": 25,
+            "y": 9
+        },
+        {
+            "x": 26,
+            "y": 9
+        },
+        {
+            "x": 27,
+            "y": 9
+        },
+        {
+            "x": 28,
+            "y": 9
+        },
+        {
+            "x": 29,
+            "y": 9
+        }
+    ],
+    "output_filename": "outputs\\rimea_test4_very_high.csv",
+    "pedestrians": [
+        {
+            "ID": 0,
+            "speed": 1.33,
+            "x": 1,
+            "y": 1
+        },
+        {
+            "ID": 1,
+            "speed": 1.33,
+            "x": 2,
+            "y": 1
+        },
+        {
+            "ID": 2,
+            "speed": 1.33,
+            "x": 3,
+            "y": 1
+        },
+        {
+            "ID": 3,
+            "speed": 1.33,
+            "x": 4,
+            "y": 1
+        },
+        {
+            "ID": 4,
+            "speed": 1.33,
+            "x": 5,
+            "y": 1
+        },
+        {
+            "ID": 5,
+            "speed": 1.33,
+            "x": 6,
+            "y": 1
+        },
+        {
+            "ID": 6,
+            "speed": 1.33,
+            "x": 7,
+            "y": 1
+        },
+        {
+            "ID": 7,
+            "speed": 1.33,
+            "x": 8,
+            "y": 1
+        },
+        {
+            "ID": 8,
+            "speed": 1.33,
+            "x": 9,
+            "y": 1
+        },
+        {
+            "ID": 9,
+            "speed": 1.33,
+            "x": 10,
+            "y": 1
+        },
+        {
+            "ID": 10,
+            "speed": 1.33,
+            "x": 1,
+            "y": 2
+        },
+        {
+            "ID": 11,
+            "speed": 1.33,
+            "x": 2,
+            "y": 2
+        },
+        {
+            "ID": 12,
+            "speed": 1.33,
+            "x": 3,
+            "y": 2
+        },
+        {
+            "ID": 13,
+            "speed": 1.33,
+            "x": 4,
+            "y": 2
+        },
+        {
+            "ID": 14,
+            "speed": 1.33,
+            "x": 5,
+            "y": 2
+        },
+        {
+            "ID": 15,
+            "speed": 1.33,
+            "x": 6,
+            "y": 2
+        },
+        {
+            "ID": 16,
+            "speed": 1.33,
+            "x": 7,
+            "y": 2
+        },
+        {
+            "ID": 17,
+            "speed": 1.33,
+            "x": 8,
+            "y": 2
+        },
+        {
+            "ID": 18,
+            "speed": 1.33,
+            "x": 9,
+            "y": 2
+        },
+        {
+            "ID": 19,
+            "speed": 1.33,
+            "x": 10,
+            "y": 2
+        },
+        {
+            "ID": 20,
+            "speed": 1.33,
+            "x": 1,
+            "y": 3
+        },
+        {
+            "ID": 21,
+            "speed": 1.33,
+            "x": 2,
+            "y": 3
+        },
+        {
+            "ID": 22,
+            "speed": 1.33,
+            "x": 3,
+            "y": 3
+        },
+        {
+            "ID": 23,
+            "speed": 1.33,
+            "x": 4,
+            "y": 3
+        },
+        {
+            "ID": 24,
+            "speed": 1.33,
+            "x": 5,
+            "y": 3
+        },
+        {
+            "ID": 25,
+            "speed": 1.33,
+            "x": 6,
+            "y": 3
+        },
+        {
+            "ID": 26,
+            "speed": 1.33,
+            "x": 7,
+            "y": 3
+        },
+        {
+            "ID": 27,
+            "speed": 1.33,
+            "x": 8,
+            "y": 3
+        },
+        {
+            "ID": 28,
+            "speed": 1.33,
+            "x": 9,
+            "y": 3
+        },
+        {
+            "ID": 29,
+            "speed": 1.33,
+            "x": 10,
+            "y": 3
+        },
+        {
+            "ID": 30,
+            "speed": 1.33,
+            "x": 1,
+            "y": 4
+        },
+        {
+            "ID": 31,
+            "speed": 1.33,
+            "x": 2,
+            "y": 4
+        },
+        {
+            "ID": 32,
+            "speed": 1.33,
+            "x": 3,
+            "y": 4
+        },
+        {
+            "ID": 33,
+            "speed": 1.33,
+            "x": 4,
+            "y": 4
+        },
+        {
+            "ID": 34,
+            "speed": 1.33,
+            "x": 5,
+            "y": 4
+        },
+        {
+            "ID": 35,
+            "speed": 1.33,
+            "x": 6,
+            "y": 4
+        },
+        {
+            "ID": 36,
+            "speed": 1.33,
+            "x": 7,
+            "y": 4
+        },
+        {
+            "ID": 37,
+            "speed": 1.33,
+            "x": 8,
+            "y": 4
+        },
+        {
+            "ID": 38,
+            "speed": 1.33,
+            "x": 9,
+            "y": 4
+        },
+        {
+            "ID": 39,
+            "speed": 1.33,
+            "x": 10,
+            "y": 4
+        },
+        {
+            "ID": 40,
+            "speed": 1.33,
+            "x": 1,
+            "y": 5
+        },
+        {
+            "ID": 41,
+            "speed": 1.33,
+            "x": 2,
+            "y": 5
+        },
+        {
+            "ID": 42,
+            "speed": 1.33,
+            "x": 3,
+            "y": 5
+        },
+        {
+            "ID": 43,
+            "speed": 1.33,
+            "x": 4,
+            "y": 5
+        },
+        {
+            "ID": 44,
+            "speed": 1.33,
+            "x": 5,
+            "y": 5
+        },
+        {
+            "ID": 45,
+            "speed": 1.33,
+            "x": 6,
+            "y": 5
+        },
+        {
+            "ID": 46,
+            "speed": 1.33,
+            "x": 7,
+            "y": 5
+        },
+        {
+            "ID": 47,
+            "speed": 1.33,
+            "x": 8,
+            "y": 5
+        },
+        {
+            "ID": 48,
+            "speed": 1.33,
+            "x": 9,
+            "y": 5
+        },
+        {
+            "ID": 49,
+            "speed": 1.33,
+            "x": 10,
+            "y": 5
+        },
+        {
+            "ID": 50,
+            "speed": 1.33,
+            "x": 1,
+            "y": 6
+        },
+        {
+            "ID": 51,
+            "speed": 1.33,
+            "x": 2,
+            "y": 6
+        },
+        {
+            "ID": 52,
+            "speed": 1.33,
+            "x": 3,
+            "y": 6
+        },
+        {
+            "ID": 53,
+            "speed": 1.33,
+            "x": 4,
+            "y": 6
+        },
+        {
+            "ID": 54,
+            "speed": 1.33,
+            "x": 5,
+            "y": 6
+        },
+        {
+            "ID": 55,
+            "speed": 1.33,
+            "x": 6,
+            "y": 6
+        },
+        {
+            "ID": 56,
+            "speed": 1.33,
+            "x": 7,
+            "y": 6
+        },
+        {
+            "ID": 57,
+            "speed": 1.33,
+            "x": 8,
+            "y": 6
+        },
+        {
+            "ID": 58,
+            "speed": 1.33,
+            "x": 9,
+            "y": 6
+        },
+        {
+            "ID": 59,
+            "speed": 1.33,
+            "x": 10,
+            "y": 6
+        },
+        {
+            "ID": 60,
+            "speed": 1.33,
+            "x": 1,
+            "y": 7
+        },
+        {
+            "ID": 61,
+            "speed": 1.33,
+            "x": 2,
+            "y": 7
+        },
+        {
+            "ID": 62,
+            "speed": 1.33,
+            "x": 3,
+            "y": 7
+        },
+        {
+            "ID": 63,
+            "speed": 1.33,
+            "x": 4,
+            "y": 7
+        },
+        {
+            "ID": 64,
+            "speed": 1.33,
+            "x": 5,
+            "y": 7
+        },
+        {
+            "ID": 65,
+            "speed": 1.33,
+            "x": 6,
+            "y": 7
+        },
+        {
+            "ID": 66,
+            "speed": 1.33,
+            "x": 7,
+            "y": 7
+        },
+        {
+            "ID": 67,
+            "speed": 1.33,
+            "x": 8,
+            "y": 7
+        },
+        {
+            "ID": 68,
+            "speed": 1.33,
+            "x": 9,
+            "y": 7
+        },
+        {
+            "ID": 69,
+            "speed": 1.33,
+            "x": 10,
+            "y": 7
+        },
+        {
+            "ID": 70,
+            "speed": 1.33,
+            "x": 1,
+            "y": 8
+        },
+        {
+            "ID": 71,
+            "speed": 1.33,
+            "x": 2,
+            "y": 8
+        },
+        {
+            "ID": 72,
+            "speed": 1.33,
+            "x": 3,
+            "y": 8
+        },
+        {
+            "ID": 73,
+            "speed": 1.33,
+            "x": 4,
+            "y": 8
+        },
+        {
+            "ID": 74,
+            "speed": 1.33,
+            "x": 5,
+            "y": 8
+        },
+        {
+            "ID": 75,
+            "speed": 1.33,
+            "x": 6,
+            "y": 8
+        },
+        {
+            "ID": 76,
+            "speed": 1.33,
+            "x": 7,
+            "y": 8
+        },
+        {
+            "ID": 77,
+            "speed": 1.33,
+            "x": 8,
+            "y": 8
+        },
+        {
+            "ID": 78,
+            "speed": 1.33,
+            "x": 9,
+            "y": 8
+        },
+        {
+            "ID": 79,
+            "speed": 1.33,
+            "x": 10,
+            "y": 8
+        },
+        {
+            "ID": 80,
+            "speed": 1.33,
+            "x": 1,
+            "y": 1
+        },
+        {
+            "ID": 81,
+            "speed": 1.33,
+            "x": 2,
+            "y": 1
+        },
+        {
+            "ID": 82,
+            "speed": 1.33,
+            "x": 3,
+            "y": 1
+        },
+        {
+            "ID": 83,
+            "speed": 1.33,
+            "x": 4,
+            "y": 1
+        },
+        {
+            "ID": 84,
+            "speed": 1.33,
+            "x": 5,
+            "y": 1
+        },
+        {
+            "ID": 85,
+            "speed": 1.33,
+            "x": 6,
+            "y": 1
+        },
+        {
+            "ID": 86,
+            "speed": 1.33,
+            "x": 7,
+            "y": 1
+        },
+        {
+            "ID": 87,
+            "speed": 1.33,
+            "x": 8,
+            "y": 1
+        },
+        {
+            "ID": 88,
+            "speed": 1.33,
+            "x": 9,
+            "y": 1
+        },
+        {
+            "ID": 89,
+            "speed": 1.33,
+            "x": 10,
+            "y": 1
+        }
+    ],
+    "targets": [
+        {
+            "x": 28,
+            "y": 2
+        },
+        {
+            "x": 28,
+            "y": 3
+        },
+        {
+            "x": 28,
+            "y": 4
+        },
+        {
+            "x": 28,
+            "y": 5
+        },
+        {
+            "x": 28,
+            "y": 6
+        },
+        {
+            "x": 28,
+            "y": 7
+        },
+        {
+            "x": 28,
+            "y": 8
+        }
+    ]
+}
